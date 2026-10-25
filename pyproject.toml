@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dockbuddy-evolution"
-version = "0.1.1"
+version = "0.1.2"
 description = "DockBuddy 蛋白进化/设计分析(MSA保守性/共进化/ΔΔG预筛/热稳定/候选排序)，解耦版本"
 readme = "README.md"
 requires-python = ">=3.8"

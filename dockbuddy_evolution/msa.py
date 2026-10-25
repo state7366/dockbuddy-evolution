@@ -10,7 +10,7 @@
   (跳过), 大写与 '-' 均计为一个比对列 —— 列号即 query 残基号(1-based)。
 
 典型用法(突变位点设计前):
-    from libdock.msa import msa_conservation
+    from dockbuddy_evolution.msa import msa_conservation
     rep = msa_conservation("xxx_unpaired_msa.a3m", columns=(205, 204))
     # 204 位(催化 His, 应高度保守)可作统计方法的对照锚; 205 位看变异谱。
 
