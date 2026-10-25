@@ -137,7 +137,7 @@ def scan_mutants(directory: str, *, objectives: List[Dict[str, Any]],
         # 字段报告(缺 doc_type 时静默跳过, 不影响 JSON)
         try:
             import importlib
-            rr = importlib.import_module("libdock.run_report")
+            rr = importlib.import_module("dockbuddy_dock.run_report")
             p = rr.write_run_report(out_path, result, "scan_ranking")
             if p:
                 result["report_md"] = p
